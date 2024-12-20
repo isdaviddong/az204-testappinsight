@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/80e40aa0-f439-4d4a-a9d6-7f86a6f6ed1d/resourceGroups/testappinsight/providers/microsoft.insights/components/testappinsight20241220</ApplicationInsightsResourceId>
+    <UserSecretsId>8806fdbe-93b0-4ead-a358-c5b852b5b2ec</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>
